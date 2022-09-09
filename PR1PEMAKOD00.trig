@@ -1,0 +1,42 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:PR1PEMAKOD00 {
+    bda:LG2FB821BF4C4607AA
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2020-09-03T16:09:47.213Z"^^xsd:dateTime ;
+        adm:logMessage      "added product for Pemakod works"@en ;
+        adm:logWho          bdu:U00006 .
+    
+    bda:LG79A720CEE0DA8593
+        a                   adm:UpdateData ;
+        adm:logDate         "2021-11-29T16:26:47.213Z"^^xsd:dateTime ;
+        adm:logMessage      "add descriptions"@en ;
+        adm:logWho          bdu:U00053 .
+    
+    bda:PR1PEMAKOD00  a     adm:AdminData ;
+        adm:adminAbout      bdr:PR1PEMAKOD00 ;
+        adm:facetIndex      3 ;
+        adm:gitPath         "5d/PR1PEMAKOD00.trig" ;
+        adm:gitRepo         bda:GR0011 ;
+        adm:graphId         bdg:PR1PEMAKOD00 ;
+        adm:logEntry        bda:LG2FB821BF4C4607AA , bda:LG79A720CEE0DA8593 ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:PR1PEMAKOD00  a     :Collection ;
+        rdfs:comment        "These are the contents of two family libraries from “hidden valley” of Pemako, in present-day Arunachal Pradesh in northern India. Pemako was under the rule of the kingdom of Powo (spo bo) in southwestern Tibet until the early twentieth century. Belonging to Lopon P. Orgyan Tenzin and Phuntsok Dorjee, the 471 titles in the Pemako Collection date from the sixteenth to the twentieth centuries. These otherwise inaccessible collections include many authors and texts unique to the textual traditions of Pemako. The Dungkar Choje library consists of terma texts from Pemako and eastern Bhutan belonging to the Pema Lingpa tradition. This collection was passed down from a student of Jigme Lingpa through a line of tantric masters to Lopon P. Orgyan Tanzin. The Dungkar Choje library also includes the termas of Nuden Dorje (nus ldan rdo rje) from Powo. The other library, the Lopang Gon collection, consists of texts rescued from the library of Lopang Monastery in Pemako. These include the treasure texts of locally revered treasure revealers who were instrumental in developing Pemako as a beyul (sbas yul), a sacred hidden valley. We are grateful to Robert Mayer and Oxford University Libraries for sharing the images and metadata of the Pemako Collection and encouraging BDRC to post them online. This project was made possible thanks to a grant from the John Fell Oxford University Press Fund. The images were photographed in 2016 by Mr. Tenzin Dhonyoe from Shantarakshita Library of CIHTS."@en ;
+        rdfs:seeAlso        "https://ora.ox.ac.uk/objects/uuid:5a5caf1b-1124-44fe-a8de-327f70c4f374"^^xsd:anyURI ;
+        skos:altLabel       "Two Family Libraries from Pemako"@en ;
+        skos:prefLabel      "pad+ma bkod/"@bo-x-ewts , "Pemako Collection"@en .
+}

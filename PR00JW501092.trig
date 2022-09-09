@@ -1,0 +1,89 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:PR00JW501092 {
+    bda:LG1856C365CAB4CC74
+        a                   adm:UpdateData ;
+        adm:logDate         "2022-01-04T19:01:44.666Z"^^xsd:dateTime ;
+        adm:logMessage      "Added Komazawa University Library"@en ;
+        adm:logWho          bdu:U00080 .
+    
+    bda:LG30CB21355D55B196
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2006-10-28T14:21:14.098Z"^^xsd:dateTime ;
+        adm:logMessage      "created core text collection 4"@en ;
+        adm:logWho          bdu:U00012 .
+    
+    bda:LG5E2DB62A5F985873
+        a                   adm:UpdateData ;
+        adm:logDate         "2011-09-27T12:17:12.792Z"^^xsd:dateTime ;
+        adm:logMessage      "normalized product names"@en ;
+        adm:logWho          bdu:U00012 .
+    
+    bda:LG96DAB10E25DA36CA
+        a                   adm:UpdateData ;
+        adm:logDate         "2010-05-17T06:58:56.107Z"^^xsd:dateTime ;
+        adm:logMessage      "added include of common subnets product"@en .
+    
+    bda:LGA0FB764DE353B2D5
+        a                   adm:UpdateData ;
+        adm:logDate         "2008-02-22T09:37:55.145Z"^^xsd:dateTime ;
+        adm:logMessage      "removed from ctc5"@en ;
+        adm:logWho          bdu:U00026 .
+    
+    bda:LGA37F0A21F9D8F0D9
+        a                   adm:UpdateData ;
+        adm:logDate         "2010-05-20T07:15:07.521Z"^^xsd:dateTime ;
+        adm:logMessage      "delete redundant subnet specs - rely on the common subnet list via include"@en .
+    
+    bda:LGAB6BCFC60FC1AC2E
+        a                   adm:UpdateData ;
+        adm:logDate         "2010-09-23T14:28:12.411Z"^^xsd:dateTime ;
+        adm:logMessage      "Added Otani University IP ranges to products CTC1-6 after receiving email from Kelsang Tahuwa"@en ;
+        adm:logWho          bdu:U00044 .
+    
+    bda:LGC2B2ACABEBF0F6D7
+        a                   adm:UpdateData ;
+        adm:logDate         "2008-03-12T10:49:15.737Z"^^xsd:dateTime ;
+        adm:logMessage      "added descrption"@en ;
+        adm:logWho          bdu:U00012 .
+    
+    bda:LGD1CBC5F2C7AF7916
+        a                   adm:UpdateData ;
+        adm:logDate         "2010-04-06T15:13:01.556Z"^^xsd:dateTime ;
+        adm:logMessage      "added access control rules for subscribing institutions"@en .
+    
+    bda:LGD5AB9BD0C95468AE
+        a                   adm:UpdateData ;
+        adm:logDate         "2017-03-03T14:32:00.407Z"^^xsd:dateTime ;
+        adm:logMessage      "deleted Otani since they are in PR88CT000129"@en ;
+        adm:logWho          bdu:U00006 .
+    
+    bda:LGD8B2E413840F9EFF
+        a                   adm:UpdateData ;
+        adm:logDate         "2010-05-04T06:58:23.579Z"^^xsd:dateTime ;
+        adm:logMessage      "added IP address ranges for UCSB"@en .
+    
+    bda:PR00JW501092  a     adm:AdminData ;
+        adm:adminAbout      bdr:PR00JW501092 ;
+        adm:facetIndex      12 ;
+        adm:gitPath         "1e/PR00JW501092.trig" ;
+        adm:gitRepo         bda:GR0011 ;
+        adm:graphId         bdg:PR00JW501092 ;
+        adm:logEntry        bda:LG1856C365CAB4CC74 , bda:LG30CB21355D55B196 , bda:LG5E2DB62A5F985873 , bda:LG96DAB10E25DA36CA , bda:LGA0FB764DE353B2D5 , bda:LGA37F0A21F9D8F0D9 , bda:LGAB6BCFC60FC1AC2E , bda:LGC2B2ACABEBF0F6D7 , bda:LGD1CBC5F2C7AF7916 , bda:LGD5AB9BD0C95468AE , bda:LGD8B2E413840F9EFF ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:PR00JW501092  a     :Collection ;
+        skos:prefLabel      "TBRC Core Text Collection 4"@en .
+}

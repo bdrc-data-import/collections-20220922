@@ -1,0 +1,35 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:PR1EAP1150 {
+    bda:LGE4C0656F1042AD2E
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2019-06-27T18:48:47.213Z"^^xsd:dateTime ;
+        adm:logMessage      "added product for EAP #1150 works"@en ;
+        adm:logWho          bdu:U00006 .
+    
+    bda:PR1EAP1150  a       adm:AdminData ;
+        adm:adminAbout      bdr:PR1EAP1150 ;
+        adm:facetIndex      2 ;
+        adm:gitPath         "cc/PR1EAP1150.trig" ;
+        adm:gitRepo         bda:GR0011 ;
+        adm:graphId         bdg:PR1EAP1150 ;
+        adm:logEntry        bda:LGE4C0656F1042AD2E ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:PR1EAP1150  a       :Collection ;
+        rdfs:comment        "The 300 bundles of Pali and vernacular manuscripts in Burmese script in this collection are a subset of the texts BDRC is digitizing at the Fragile Palm Leaves Foundation library. The Endangered Archive Programme supported the digitization and cataloging of these manuscripts. Over 1000 individual texts are contained within the bundles and were selected for their research value. The majority of the manuscripts date from the 18th or 19th century. The texts cover a variety of topics, including law, poetry, stories of the Buddha, grammar and religious rituals. They are the primary sources for the scholarly study of Burmese and Theravada Buddhism, Pali philology, history, literature, as well as regional codicology, premodern textual/scribal practices and manuscript culture."@en ;
+        rdfs:seeAlso        "https://eap.bl.uk/project/EAP1150"^^xsd:anyURI ;
+        skos:prefLabel      "British Library Endangered Archives Program #1150"@en .
+}

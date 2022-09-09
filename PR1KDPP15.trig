@@ -1,0 +1,39 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:PR1KDPP15 {
+    bda:LGBF5EE2B23A2B9277
+        a                   adm:UpdateData ;
+        adm:logDate         "2020-04-14T17:09:00Z"^^xsd:dateTime ;
+        adm:logMessage      "updated collection name; \"Wat -> Vatt"@en ;
+        adm:logWho          bdu:U00006 .
+    
+    bda:LGF832C9BDC4FA27C0
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2019-12-04T21:15:47.213Z"^^xsd:dateTime ;
+        adm:logMessage      "added product for FEMC 03 Collection 15 works"@en ;
+        adm:logWho          bdu:U00006 .
+    
+    bda:PR1KDPP15  a        adm:AdminData ;
+        adm:adminAbout      bdr:PR1KDPP15 ;
+        adm:facetIndex      3 ;
+        adm:gitPath         "14/PR1KDPP15.trig" ;
+        adm:gitRepo         bda:GR0011 ;
+        adm:graphId         bdg:PR1KDPP15 ;
+        adm:logEntry        bda:LGBF5EE2B23A2B9277 , bda:LGF832C9BDC4FA27C0 ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:PR1KDPP15  a        :Collection ;
+        skos:prefLabel      "Collection: Vatt Phnom Khsach"@en .
+}

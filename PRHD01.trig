@@ -1,0 +1,93 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:PRHD01 {
+    bda:LG051C779F2BE752F6
+        a                   adm:UpdateData ;
+        adm:logDate         "2010-07-27T12:31:19.005Z"^^xsd:dateTime ;
+        adm:logMessage      "added ip ranges for Northwestern University"@en ;
+        adm:logWho          bdu:U00044 .
+    
+    bda:LG0C6D3A658848A27F
+        a                   adm:UpdateData ;
+        adm:logDate         "2022-01-04T19:13:44.666Z"^^xsd:dateTime ;
+        adm:logMessage      "Added Komazawa University Library"@en ;
+        adm:logWho          bdu:U00080 .
+    
+    bda:LG0F6D9CA99087B104
+        a                   adm:UpdateData ;
+        adm:logDate         "2010-05-20T07:15:26.268Z"^^xsd:dateTime ;
+        adm:logMessage      "delete redundant subnet specs - rely on the common subnet list via include"@en .
+    
+    bda:LG1682580A2A8D6A3B
+        a                   adm:UpdateData ;
+        adm:logDate         "2010-04-06T15:13:35.213Z"^^xsd:dateTime ;
+        adm:logMessage      "added access control rules for subscribing institutions"@en .
+    
+    bda:LG17EC8AF5815D4D33
+        a                   adm:UpdateData ;
+        adm:logDate         "2017-03-03T14:32:00.407Z"^^xsd:dateTime ;
+        adm:logMessage      "deleted Northwestern and Otani since they are in PR88CT000129, include ANU rather than inline"@en ;
+        adm:logWho          bdu:U00006 .
+    
+    bda:LG3F21167E10AAA53B
+        a                   adm:UpdateData ;
+        adm:logDate         "2010-09-23T14:28:13.319Z"^^xsd:dateTime ;
+        adm:logMessage      "Added Otani University IP ranges to products CTC1-6 after receiving email from Kelsang Tahuwa"@en ;
+        adm:logWho          bdu:U00044 .
+    
+    bda:LG67011E041E52AD71
+        a                   adm:UpdateData ;
+        adm:logDate         "2010-05-04T06:52:19.692Z"^^xsd:dateTime ;
+        adm:logMessage      "added UCSB IP address ranges"@en .
+    
+    bda:LG700737E207D61B09
+        a                   adm:UpdateData ;
+        adm:logDate         "2010-05-17T06:56:10.676Z"^^xsd:dateTime ;
+        adm:logMessage      "added include for common subnets product"@en .
+    
+    bda:LG9D154D0C10F12F36
+        a                   adm:UpdateData ;
+        adm:logDate         "2011-07-22T12:02:29.484Z"^^xsd:dateTime ;
+        adm:logMessage      "publishing to test"@en ;
+        adm:logWho          bdu:U00044 .
+    
+    bda:LGBD72E4921FE945A8
+        a                   adm:UpdateData ;
+        adm:logDate         "2011-09-27T12:17:15.407Z"^^xsd:dateTime ;
+        adm:logMessage      "normalized product names"@en ;
+        adm:logWho          bdu:U00012 .
+    
+    bda:LGC104BF47EBCE3838
+        a                   adm:InitialDataCreation ;
+        adm:logWho          bdu:U00001 .
+    
+    bda:LGDF630AB56D07CF70
+        a                   adm:UpdateData ;
+        adm:logDate         "2011-03-09T10:50:17.03Z"^^xsd:dateTime ;
+        adm:logMessage      "Added ANU as a subscriber"@en ;
+        adm:logWho          bdu:U00044 .
+    
+    bda:PRHD01  a           adm:AdminData ;
+        adm:adminAbout      bdr:PRHD01 ;
+        adm:facetIndex      13 ;
+        adm:gitPath         "95/PRHD01.trig" ;
+        adm:gitRepo         bda:GR0011 ;
+        adm:graphId         bdg:PRHD01 ;
+        adm:logEntry        bda:LG051C779F2BE752F6 , bda:LG0C6D3A658848A27F , bda:LG0F6D9CA99087B104 , bda:LG1682580A2A8D6A3B , bda:LG17EC8AF5815D4D33 , bda:LG3F21167E10AAA53B , bda:LG67011E041E52AD71 , bda:LG700737E207D61B09 , bda:LG9D154D0C10F12F36 , bda:LGBD72E4921FE945A8 , bda:LGC104BF47EBCE3838 , bda:LGDF630AB56D07CF70 ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:PRHD01  a           :Collection ;
+        skos:prefLabel      "TBRC Core Text Collection 1"@en .
+}

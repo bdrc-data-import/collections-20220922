@@ -1,0 +1,37 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:PR1EAP0103402 {
+    bda:LG62E09F7AEA54E898
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2022-05-23T11:09:47.213Z"^^xsd:dateTime ;
+        adm:logMessage      "added product"@en ;
+        adm:logWho          bdu:U00053 .
+    
+    bda:PR1EAP0103402
+        a                   adm:AdminData ;
+        adm:adminAbout      bdr:PR1EAP0103402 ;
+        adm:facetIndex      2 ;
+        adm:gitPath         "e8/PR1EAP0103402.trig" ;
+        adm:gitRepo         bda:GR0011 ;
+        adm:graphId         bdg:PR1EAP0103402 ;
+        adm:logEntry        bda:LG62E09F7AEA54E898 ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:PR1EAP0103402
+        a                   :Collection ;
+        rdfs:comment        "The collection as two parts: the Cone Kangyur and xylographs produced in Aginsky Monastery."@en ;
+        rdfs:seeAlso        "https://eap.bl.uk/collection/EAP1034-2"^^xsd:anyURI ;
+        skos:prefLabel      "EAP 1034-2: Institute of Buddhist, Mongolian and Tibetan Studies Manuscript Collection"@en .
+}

@@ -1,0 +1,163 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:PR60CTX96 {
+    bda:LG0C602C67C302BDB0
+        a                   adm:UpdateData ;
+        adm:logDate         "2012-03-09T14:49:02.077Z"^^xsd:dateTime ;
+        adm:logMessage      "Added Toronto to CTC8"@en ;
+        adm:logWho          bdu:U00044 .
+    
+    bda:LG0D8246C39020AD1D
+        a                   adm:UpdateData ;
+        adm:logDate         "2012-03-09T14:20:25.408Z"^^xsd:dateTime ;
+        adm:logMessage      "Added initial subscribers to CTC9"@en ;
+        adm:logWho          bdu:U00044 .
+    
+    bda:LG10A24258E43E9B97
+        a                   adm:UpdateData ;
+        adm:logDate         "2014-05-28T19:09:48.49Z"^^xsd:dateTime ;
+        adm:logMessage      "updated Indiana, reordered entries"@en ;
+        adm:logWho          bdu:U00006 .
+    
+    bda:LG1B5DD6A093CB86C8
+        a                   adm:UpdateData ;
+        adm:logDate         "2022-01-04T19:01:44.666Z"^^xsd:dateTime ;
+        adm:logMessage      "Added Komazawa University Library"@en ;
+        adm:logWho          bdu:U00080 .
+    
+    bda:LG2ABD44EACBF936AA
+        a                   adm:UpdateData ;
+        adm:logDate         "2013-10-22T17:39:29.671Z"^^xsd:dateTime ;
+        adm:logMessage      "released product documents"@en ;
+        adm:logWho          bdu:U00012 .
+    
+    bda:LG326C6739FD319965
+        a                   adm:UpdateData ;
+        adm:logDate         "2011-03-23T09:55:51.268Z"^^xsd:dateTime ;
+        adm:logMessage      "For the time being I removed the Common Subnet Product and added only the subscribing universities.  As the numbers increase I may revert to using the common subnet product."@en ;
+        adm:logWho          bdu:U00044 .
+    
+    bda:LG38223BC6D8118A13
+        a                   adm:UpdateData ;
+        adm:logDate         "2011-06-29T14:57:31.532Z"^^xsd:dateTime ;
+        adm:logMessage      "Added CTC8 access for University of Hamburg"@en ;
+        adm:logWho          bdu:U00044 .
+    
+    bda:LG396D1A781163B3DB
+        a                   adm:UpdateData ;
+        adm:logDate         "2014-02-25T12:09:48.49Z"^^xsd:dateTime ;
+        adm:logMessage      "added Otani"@en ;
+        adm:logWho          bdu:U00006 .
+    
+    bda:LG398E5F590956E47D
+        a                   adm:UpdateData ;
+        adm:logDate         "2012-05-09T15:59:40.24Z"^^xsd:dateTime ;
+        adm:logMessage      "added IP address for Munich"@en ;
+        adm:logWho          bdu:U00006 .
+    
+    bda:LG42E7AEC51F68D9FB
+        a                   adm:UpdateData ;
+        adm:logDate         "2011-04-28T15:14:09.428Z"^^xsd:dateTime ;
+        adm:logMessage      "Added harvard to CTC8"@en ;
+        adm:logWho          bdu:U00044 .
+    
+    bda:LG6624AC69B41F2362
+        a                   adm:UpdateData ;
+        adm:logDate         "2011-08-11T10:20:43.759Z"^^xsd:dateTime ;
+        adm:logMessage      "Updated IPs for Harvard"@en ;
+        adm:logWho          bdu:U00044 .
+    
+    bda:LG68206A7BDA63A346
+        a                   adm:UpdateData ;
+        adm:logDate         "2012-02-24T11:17:39.62Z"^^xsd:dateTime ;
+        adm:logMessage      "Created org vienna and added ip address ranges for CTC1-8"@en ;
+        adm:logWho          bdu:U00044 .
+    
+    bda:LG6DEADA612462804F
+        a                   adm:UpdateData ;
+        adm:logDate         "2011-04-16T06:03:02.088Z"^^xsd:dateTime ;
+        adm:logMessage      "added org CT in Nepal for testing"@en .
+    
+    bda:LG6FB9C1AC5CE1F86D
+        a                   adm:UpdateData ;
+        adm:logDate         "2011-10-07T11:39:09.986Z"^^xsd:dateTime ;
+        adm:logMessage      "Added Munich Princeton Yale and Northwestern to CTC8"@en ;
+        adm:logWho          bdu:U00044 .
+    
+    bda:LG8375810653FD195A
+        a                   adm:UpdateData ;
+        adm:logDate         "2011-06-28T14:08:19.189Z"^^xsd:dateTime ;
+        adm:logMessage      "added Lausanne to common subnet and ctc8"@en ;
+        adm:logWho          bdu:U00044 .
+    
+    bda:LG8508F9C280050F56
+        a                   adm:UpdateData ;
+        adm:logDate         "2011-07-22T12:02:28.695Z"^^xsd:dateTime ;
+        adm:logMessage      "publishing to test"@en ;
+        adm:logWho          bdu:U00044 .
+    
+    bda:LG9955AFE44D00D492
+        a                   adm:UpdateData ;
+        adm:logDate         "2011-10-14T11:03:16.796Z"^^xsd:dateTime ;
+        adm:logMessage      "added 149.165.128.0/24 to Indiana to fix access issues."@en ;
+        adm:logWho          bdu:U00044 .
+    
+    bda:LG9D58B9E2A8F96399
+        a                   adm:UpdateData ;
+        adm:logDate         "2017-03-03T14:32:00.407Z"^^xsd:dateTime ;
+        adm:logMessage      "organized to use only includes"@en ;
+        adm:logWho          bdu:U00006 .
+    
+    bda:LGAAD1F403B45DC154
+        a                   adm:UpdateData ;
+        adm:logDate         "2011-10-06T15:54:07.972Z"^^xsd:dateTime ;
+        adm:logMessage      "added indiana to CTC8"@en ;
+        adm:logWho          bdu:U00044 .
+    
+    bda:LGB017DCB4CE629DE2
+        a                   adm:UpdateData ;
+        adm:logDate         "2011-03-23T11:50:15.71Z"^^xsd:dateTime ;
+        adm:logMessage      "removed Otani until further notice.  They have not subscribed and as of yet it is unclear how Tahua downloads"@en ;
+        adm:logWho          bdu:U00044 .
+    
+    bda:LGC8A6E161DF50D82C
+        a                   adm:UpdateData ;
+        adm:logDate         "2013-06-06T10:32:04.1Z"^^xsd:dateTime ;
+        adm:logMessage      "added chicago"@en ;
+        adm:logWho          bdu:U00012 .
+    
+    bda:LGC980E8576C4A2C7B
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2011-03-02T10:25:48.765Z"^^xsd:dateTime ;
+        adm:logMessage      "adding product for Core Text Collection 8"@en .
+    
+    bda:LGCCD508F4B6BE7D12
+        a                   adm:UpdateData ;
+        adm:logDate         "2011-09-27T12:17:15.112Z"^^xsd:dateTime ;
+        adm:logMessage      "normalized product names"@en ;
+        adm:logWho          bdu:U00012 .
+    
+    bda:PR60CTX96  a        adm:AdminData ;
+        adm:adminAbout      bdr:PR60CTX96 ;
+        adm:facetIndex      24 ;
+        adm:gitPath         "58/PR60CTX96.trig" ;
+        adm:gitRepo         bda:GR0011 ;
+        adm:graphId         bdg:PR60CTX96 ;
+        adm:logEntry        bda:LG0C602C67C302BDB0 , bda:LG0D8246C39020AD1D , bda:LG10A24258E43E9B97 , bda:LG1B5DD6A093CB86C8 , bda:LG2ABD44EACBF936AA , bda:LG326C6739FD319965 , bda:LG38223BC6D8118A13 , bda:LG396D1A781163B3DB , bda:LG398E5F590956E47D , bda:LG42E7AEC51F68D9FB , bda:LG6624AC69B41F2362 , bda:LG68206A7BDA63A346 , bda:LG6DEADA612462804F , bda:LG6FB9C1AC5CE1F86D , bda:LG8375810653FD195A , bda:LG8508F9C280050F56 , bda:LG9955AFE44D00D492 , bda:LG9D58B9E2A8F96399 , bda:LGAAD1F403B45DC154 , bda:LGB017DCB4CE629DE2 , bda:LGC8A6E161DF50D82C , bda:LGC980E8576C4A2C7B , bda:LGCCD508F4B6BE7D12 ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:PR60CTX96  a        :Collection ;
+        skos:prefLabel      "TBRC Core Text Collection 8"@en .
+}

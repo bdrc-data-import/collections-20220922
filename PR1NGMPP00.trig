@@ -1,0 +1,41 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:PR1NGMPP00 {
+    bda:LG180942B4722CD926
+        a                   adm:UpdateData ;
+        adm:logDate         "2021-11-29T16:26:47.213Z"^^xsd:dateTime ;
+        adm:logMessage      "add descriptions"@en ;
+        adm:logWho          bdu:U00053 .
+    
+    bda:LG1AA89FEF7524D7A1
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2020-09-03T16:09:47.213Z"^^xsd:dateTime ;
+        adm:logMessage      "added product for NGMPP works"@en ;
+        adm:logWho          bdu:U00006 .
+    
+    bda:PR1NGMPP00  a       adm:AdminData ;
+        adm:adminAbout      bdr:PR1NGMPP00 ;
+        adm:facetIndex      3 ;
+        adm:gitPath         "b4/PR1NGMPP00.trig" ;
+        adm:gitRepo         bda:GR0011 ;
+        adm:graphId         bdg:PR1NGMPP00 ;
+        adm:logEntry        bda:LG180942B4722CD926 , bda:LG1AA89FEF7524D7A1 ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:PR1NGMPP00  a       :Collection ;
+        rdfs:comment        "This is the collection of The Nepal-German Manuscript Preservation Project (NGMPP), a thirty year project that ran from 1970 to 2001 under an agreement between the Nepalese government and the German Oriental Society. The project aimed to preserve the extraordinary wealth of Nepalese manuscripts on microfilm, and its collection comprised a great deal of Sanskrit, Tibetan, Nepalese and Newari material. Many of the manuscripts, some of them over a thousand years old, were already heavily damaged at the time of filming and preserved just before they became practically illegible. The microfilms, kept in the National Archives in Kathmandu and in the National Library in Berlin, are not openly accessible. From the greater NGMPP collection, the BDRC library contains the NGMPP’s Tibetan catalogue of 37,000 entries and the Sanskrit Buddhist catalogue of 10,000 entries as well as around 300 texts or 10,000 images from NGMPP."@en ;
+        rdfs:seeAlso        "https://www.aai.uni-hamburg.de/en/forschung/ngmcp"^^xsd:anyURI ;
+        skos:prefLabel      "Nepal German Manuscript Preservation Project (NGMPP)"@en .
+}
