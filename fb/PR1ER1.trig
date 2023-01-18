@@ -1,0 +1,28 @@
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:PR1ER1 {
+    bda:LG0PR1ER1_AITVLBUGF7QG
+        a                   adm:UpdateData ;
+        adm:logDate         "2023-01-18T10:41:45.754619Z"^^xsd:dateTime ;
+        adm:logMessage      "create"@en ;
+        adm:logWho          bdu:U1653882847 .
+    
+    bda:PR1ER1  a           adm:AdminData ;
+        adm:adminAbout      bdr:PR1ER1 ;
+        adm:graphId         bdg:PR1ER1 ;
+        adm:logEntry        bda:LG0PR1ER1_AITVLBUGF7QG ;
+        adm:metadataLegal   bda:LD_BDRC_CC0 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:PR1ER1  a           bdo:Collection ;
+        rdfs:comment        "Supported by the Harvard China Fund of Harvard University, the project “Norbu Ketaka: Auto-Correcting BDRC’s E-Text Corpus using Natural Language Processing and Computer Vision Methods” is led by Queenie Luo (Harvard University), Zhiying Li (Sichuan University), and Leonard van der Kuijp (Harvard University), and enjoyed the collaboration of  Kurt Keutzer (UC Berkeley).  Further cooperation was extended by the Buddhist Digital Resource Center [BDRC] and the Center for Tibetan Studies of Sichuan University, and the Department of East Asian Languages and Civilizations of Harvard University extended additional administrative and financial support. As of September 2022, BDRC has received 318,000 pages of \"cleaned \" texts from the Norbu Ketaka project. The \"raw\" texts are first pre-processed using AI-based systems after which they are proofread by Tibetan specialists for quality control and to ensure that they were properly \"cleaned\". Correspondence should be directed to  Queenie Luo: queenieluo@g.harvard.edu. "@en ;
+        skos:prefLabel      "ནོར་བུ་ཀེ་ཏ་ཀ"@bo , "Norbu Ketaka"@en .
+}
