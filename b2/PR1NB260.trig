@@ -15,14 +15,20 @@ bdg:PR1NB260 {
         adm:logMessage      "test"@en ;
         adm:logWho          bdu:U678062094 .
     
+    bda:LG0PR1NB260_ZBFBSEAPZJSJ
+        a                   adm:UpdateData ;
+        adm:logDate         "2023-02-09T15:32:10.265077Z"^^xsd:dateTime ;
+        adm:logMessage      "test uri"@en ;
+        adm:logWho          bdu:U678062094 .
+    
     bda:PR1NB260  a         adm:AdminData ;
         adm:adminAbout      bdr:PR1NB260 ;
         adm:graphId         bdg:PR1NB260 ;
-        adm:logEntry        bda:LG0PR1NB260_4TA7IZOUIKPC ;
+        adm:logEntry        bda:LG0PR1NB260_4TA7IZOUIKPC , bda:LG0PR1NB260_ZBFBSEAPZJSJ ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusReleased .
     
     bdr:PR1NB260  a         bdo:Collection ;
-        rdfs:seeAlso        "http://test.com"^^xsd:anyURI ;
+        rdfs:seeAlso        "http://test"^^xsd:anyURI ;
         skos:prefLabel      "test"@en .
 }
