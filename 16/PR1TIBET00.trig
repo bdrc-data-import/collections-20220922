@@ -21,6 +21,12 @@ bdg:PR1TIBET00 {
         adm:logMessage      "update links"@en ;
         adm:logWho          bdu:U1653882847 .
     
+    bda:LG0PR1TIBET00_MYR6OPZ6L72X
+        a                   adm:UpdateData ;
+        adm:logDate         "2023-03-16T10:00:06.491707Z"^^xsd:dateTime ;
+        adm:logMessage      "update links"@en ;
+        adm:logWho          bdu:U1653882847 .
+    
     bda:LG7674FA163C6F7AA1
         a                   adm:UpdateData ;
         adm:logDate         "2021-11-29T16:26:47.213Z"^^xsd:dateTime ;
@@ -33,7 +39,7 @@ bdg:PR1TIBET00 {
         adm:gitPath         "16/PR1TIBET00.trig" ;
         adm:gitRepo         bda:GR0011 ;
         adm:graphId         bdg:PR1TIBET00 ;
-        adm:logEntry        bda:LG0EEAB9D6BD48FA2A , bda:LG0PR1TIBET00_3GCAZH5CXYMO , bda:LG7674FA163C6F7AA1 ;
+        adm:logEntry        bda:LG0EEAB9D6BD48FA2A , bda:LG0PR1TIBET00_3GCAZH5CXYMO , bda:LG0PR1TIBET00_MYR6OPZ6L72X , bda:LG7674FA163C6F7AA1 ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusReleased .
     
