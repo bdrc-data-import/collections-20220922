@@ -10,8 +10,8 @@
 
 bdg:PR1ER1 {
     bda:LG0PR1ER1_AITVLBUGF7QG
-        a                   adm:UpdateData ;
-        adm:logDate         "2023-01-18T10:41:45.754619Z"^^xsd:dateTime ;
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2023-01-18T10:41:45.754619+00:00"^^xsd:dateTime ;
         adm:logMessage      "create"@en ;
         adm:logWho          bdu:U1653882847 .
     

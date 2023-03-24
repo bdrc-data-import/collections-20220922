@@ -9,8 +9,8 @@
 
 bdg:PR3KG2 {
     bda:LG0PR3KG2_PTVGWPM6DWNL
-        a                   adm:UpdateData ;
-        adm:logDate         "2023-01-25T15:00:27.016352Z"^^xsd:dateTime ;
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2023-01-25T15:00:27.016352+00:00"^^xsd:dateTime ;
         adm:logMessage      "new Collection"@en ;
         adm:logWho          bdu:U1426146149 .
     
