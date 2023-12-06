@@ -15,15 +15,21 @@ bdg:PR1ER2 {
         adm:logMessage      "new collection"@en ;
         adm:logWho          bdu:U1653882847 .
     
+    bda:LG0PR1ER2_WJUB9V1SCGPC
+        a                   adm:UpdateData ;
+        adm:logDate         "2023-12-06T00:26:00.517801Z"^^xsd:dateTime ;
+        adm:logMessage      "adjust name"@en ;
+        adm:logWho          bdu:U1653882847 .
+    
     bda:PR1ER2  a           adm:AdminData ;
         adm:adminAbout      bdr:PR1ER2 ;
         adm:graphId         bdg:PR1ER2 ;
-        adm:logEntry        bda:LG0PR1ER2_8BUD1XEP9K8Q ;
+        adm:logEntry        bda:LG0PR1ER2_8BUD1XEP9K8Q , bda:LG0PR1ER2_WJUB9V1SCGPC ;
         adm:metadataLegal   bda:LD_BDRC_CC0 ;
         adm:status          bda:StatusReleased .
     
     bdr:PR1ER2  a           bdo:Collection ;
         rdfs:comment        "This project aims to select and preserve 500 volumes of unique and fragile material written by Mongolian authors in Tibetan language between 1700 and 1900 held at the National Library of Mongolia (NLM). Many volumes lack proper identification, include miscellaneous writings, and have not been opened in hundreds of years. The materials have been inaccessible to the Mongolian community for one hundred years and have never been accessible to the global scholarly community; they serve as a record of Mongolian culture and scholarship of essential significance both for Mongolians and for international scholars, researchers, and historians of Mongolia."@en ;
         rdfs:seeAlso        "https://doi.org/10.15130/EAP1490"^^xsd:anyURI ;
-        skos:prefLabel      "Digitisation and preservation of a historic collection of Mongolian authors at the National Library of Mongolia (EAP1490)"@en .
+        skos:prefLabel      "Collection of Mongolian authors at the National Library of Mongolia (EAP1490)"@en .
 }
